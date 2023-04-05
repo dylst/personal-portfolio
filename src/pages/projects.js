@@ -191,7 +191,7 @@ const projects = () => {
                 summary='A professional portfolio website using Next JS, Framer-motion, and TailwindCSS. It has awesome page transitions, a layout that responds to anything, unique design just like everyone else and you are currently viewing it.'
                 img={project4}
                 link='https://dylst.dev'
-                github='https://github.com/codebucks27/react-portfolio-final'
+                github='https://github.com/dylst/personal-portfolio'
               />
             </div>
 
