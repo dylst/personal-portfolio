@@ -32,7 +32,7 @@ export default function Home() {
               <Scene />
             </div>
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
-              <h2 className='my-4 text-xl self-start tracking-widest font-medium md:text-sm lg:self-center sm:text-xs'>
+              <h2 className='my-4 text-xl self-start tracking-widest font-medium md:text-sm lg:self-center'>
                 Dylan Cornel
               </h2>
               <AnimatedText
