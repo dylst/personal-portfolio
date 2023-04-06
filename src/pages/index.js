@@ -19,7 +19,7 @@ export default function Home() {
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light sm:items-start'>
         <Layout className='pt-0 md:pt-16 sm:pt-16'>
           <div className='flex items-center justify-between w-full lg:flex-col'>
-            <div className='w-1/2 h-[75vh] md:w-full sm:h-[400px] sm:w-3/4 xs:w-5/6'>
+            <div className='w-1/2 h-[75vh] lg:w-5/6 md:w-full sm:h-[400px] sm:w-3/4 xs:w-5/6'>
               {/* <Image
                 src={profilePic}
                 alt='Swordsman facing forward'
@@ -59,7 +59,10 @@ export default function Home() {
                   '
                   download={true}
                 >
-                  Resume <LinkArrow className={'w-6 md:w-4 sm:w-3 ml-1'} />
+                  Resume{' '}
+                  <LinkArrow
+                    className={'w-6 lg:wd-5 md:w-4 sm:w-3 xs:w-2 ml-1'}
+                  />
                 </Link>
                 <Link
                   href='mailto:cdylan127@gmail.com'

@@ -151,7 +151,7 @@ const projects = () => {
         <Layout className='pt-16'>
           <AnimatedText
             text='Leveling Up!'
-            className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'
+            className='mb-16 !text-7xl lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'
           />
 
           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
@@ -186,7 +186,7 @@ const projects = () => {
 
             <div className='col-span-12'>
               <FeaturedProject
-                type='Next Tailwind Framer-Motion'
+                type='Next  Tailwind  Framer-Motion'
                 title='Portfolio Website'
                 summary='A professional portfolio website using Next JS, Framer-motion, and TailwindCSS. It has awesome page transitions, a layout that responds to anything, unique design just like everyone else and you are currently viewing it.'
                 img={project4}
