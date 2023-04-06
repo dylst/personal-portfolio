@@ -1,5 +1,5 @@
 import AnimatedText from '@/components/AnimatedText';
-import { LinkArrow } from '@/components/Icons';
+import { FiDownload } from 'react-icons/fi';
 import Layout from '@/components/Layout';
 import TransitionEffect from '@/components/TransitionEffect';
 import Head from 'next/head';
@@ -50,7 +50,7 @@ export default function Home() {
                 <Link
                   href='/resume.pdf'
                   target={'_blank'}
-                  className='flex items-center bg-dark text-light p-2.5 px-6
+                  className='flex items-center gap-1 bg-dark text-light p-2.5 px-6
                   rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
                   border-2 border-solid border-transparent hover:border-dark
                   
@@ -59,11 +59,10 @@ export default function Home() {
                   '
                   download={true}
                 >
-                  Resume{' '}
-                  <LinkArrow
-                    className={'w-6 lg:wd-5 md:w-4 sm:w-3 xs:w-2 ml-1'}
-                  />
+                  Resume
+                  <FiDownload />
                 </Link>
+
                 <Link
                   href='mailto:cdylan127@gmail.com'
                   target={'_blank'}
