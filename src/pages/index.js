@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import profilePic from '../../public/images/profile/developer-pic-3.png';
+import Scene from '@/components/particle-scene/Scence';
 
 export default function Home() {
   return (
@@ -18,8 +19,8 @@ export default function Home() {
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light sm:items-start'>
         <Layout className='pt-0 md:pt-16 sm:pt-16'>
           <div className='flex items-center justify-between w-full lg:flex-col'>
-            <div className='w-1/2 md:w-full'>
-              <Image
+            <div className='w-1/2 h-[75vh] md:w-full sm:h-[400px] sm:w-3/4 xs:w-5/6'>
+              {/* <Image
                 src={profilePic}
                 alt='Swordsman facing forward'
                 className='w-full h-auto lg:hidden md:inline-block md:w-full'
@@ -27,9 +28,13 @@ export default function Home() {
                 sizes='(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               50vw'
-              />
+              /> */}
+              <Scene />
             </div>
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
+              <h2 className='my-4 text-xl self-start tracking-widest font-medium md:text-sm lg:self-center sm:text-xs'>
+                Dylan Cornel
+              </h2>
               <AnimatedText
                 text='Life is a journey not a destination.'
                 className='!text-6xl !text-left 
