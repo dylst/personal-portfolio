@@ -49,7 +49,7 @@ const Education = () => {
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
           <Details
             type='Associate of Science in Computer Science'
-            time='2019-2021'
+            time='2021-2023'
             place='Orange Coast College'
             info='Relevant courses include Java Programming, Python Programming, C++ Programming, Discrete Structures, and Data Structures and Algorithms.'
           />
